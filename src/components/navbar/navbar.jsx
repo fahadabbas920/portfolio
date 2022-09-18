@@ -1,7 +1,4 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
-import { faPhone, faPerson } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -9,25 +6,25 @@ const Navbar = () => {
       <ul className="links-container">
         <li>
           <Link to={"/"} className="link">
-            <FontAwesomeIcon icon={faHouse} />
+            <i className="fa-solid fa-house"></i>
             <span>Home</span>
           </Link>
         </li>
         <li>
           <Link to={"/projects"} className="link">
-            <FontAwesomeIcon icon={faProjectDiagram} />
+            <i className="fa-solid fa-diagram-project"></i>
             <span>Projects</span>
           </Link>
         </li>
         <li>
           <Link to={"/about"} className="link">
-            <FontAwesomeIcon icon={faPerson} />
+            <i className="fa-solid fa-person"></i>
             <span>About</span>
           </Link>
         </li>
         <li>
           <Link to={"/contact"} className="link">
-            <FontAwesomeIcon icon={faPhone} />
+            <i className="fa-solid fa-address-book"></i>
             <span>Contact</span>
           </Link>
         </li>

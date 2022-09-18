@@ -1,24 +1,43 @@
 const About = () => {
   return (
-    <div className="about main">
+    <div className="about">
       <div className="intro-container">
         <h1>About Me</h1>
         <p className="showing">
-          I'm a front-end web Developer, currently in my last year of bachlor of
-          computer science. I love teaching myself new things. I started with
-          computers in high school and college, then learned about Web
-          development and all the rest. Now that I’ve gotten this far, I can’t
-          stop thinking about achieving even more. It’s advantageous, and I hope
-          to learn more about the field as my career progresses.
+          I'm a front-end web developer.
+          My IT experience has given me a strong foundation for web development
+          and building complex solutions. Currently in my last year of bachelor
+          of computer science. I am passionate about coding and solving problems
+          through code, and I am excited to work alongside other amazing
+          programmers and learn so much more.
         </p>
-        <h2>Technologies i use</h2>
-        <ul>
-            <li>Html</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Bootstrap</li>
-            <li>Scss</li>
-            <li>React.js</li>
+        <h2 className="showing">Skills</h2>
+        <ul className="showing">
+          <li>
+            <i className="fa-brands fa-html5"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-css3-alt"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-square-js"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-bootstrap"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-sass"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-react"></i>
+          </li>
+          <li>VS code</li>
+          <li>
+            <i className="fa-brands fa-git-alt"></i>
+          </li>
+          <li>
+            <i className="fa-brands fa-windows"></i>
+          </li>
         </ul>
       </div>
     </div>

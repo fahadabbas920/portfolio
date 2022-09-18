@@ -1,25 +1,19 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {  } from "@fortawesome/free-solid-svg-icons"
-// import { Link } from "react-router-dom";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPerson, faVoicemail } from "@fortawesome/free-solid-svg-icons";
-
 const Contact = () => {
-    return ( 
-        <div className="contact main">
-          <div className="intro-container">
-            <h1>Contact</h1>
-            <ul className="showing">
-                <li><FontAwesomeIcon icon={faPerson}></FontAwesomeIcon> +971 52 8673166</li>
-                <li><FontAwesomeIcon icon={faVoicemail}></FontAwesomeIcon>fahadabbas920@gmail.com</li>
-                <li><FontAwesomeIcon icon={faVoicemail}></FontAwesomeIcon>linkedIn</li>
+  return (
+    <div className="contact">
+      <div className="intro-container">
+        <h1>Contact</h1>
+        <ul className="showing">
+          <li>
+          <a href="tel:+971528673166"><i className="fa-solid fa-phone"></i>Click to call: +971 52 8673166</a>
+          </li>
+          <li>
+          <a href="mailto: fahadabbas920@gmail.com"><i className="fa-solid fa-envelope"></i>Send email: fahadabbas920@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-                
-            </ul>
-          </div>
-        </div>
-     );
-}
- 
 export default Contact;

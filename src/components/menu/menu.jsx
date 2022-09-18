@@ -1,14 +1,12 @@
 const Menubtn = () => {
-  function MenuClickHandler(){
+  function MenuClickHandler() {
     const menu = document.querySelector(".navbar");
-    menu.classList.toggle("show")
+    menu.classList.toggle("show");
   }
 
-    return (
+  return (
     <div className="menu-btn" onClick={MenuClickHandler}>
-      <span className="L1 Line"></span>
-      <span className="L2 Line"></span>
-      <span className="L3 Line"></span>
+      <span className="material-symbols-outlined">Menu</span>
     </div>
   );
 };
