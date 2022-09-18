@@ -11,7 +11,7 @@ import Footer from "../src/components/footer/footer.jsx";
 function App() {
   return (
     <Fragment>
-      <BrowserRouter>
+      <BrowserRouter basename="/fahadabbas920.github.io" >
         <Navbar></Navbar>
         <Menubtn></Menubtn>
         <Routes>
