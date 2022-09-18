@@ -2,7 +2,7 @@
   "homepage": "http://fahadabbas920.github.io/fahadabbas920",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
