@@ -13,12 +13,12 @@ const Main = () => {
           {/* <li><a href="https://www.youtube.com">Resume</a></li> */}
           <li>
             <a href="https://github.com/fahadabbas920">
-              <i className="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github">.</i>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/fahadabbas920/">
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin">.</i>
             </a>
           </li>
         </ul>
