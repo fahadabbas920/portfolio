@@ -14,10 +14,12 @@ function App() {
         <Navbar></Navbar>
         <Menubtn></Menubtn>
         <Routes>
+        {window.onload(<Route path="portfolio/" element={<Main />} />)}
           <Route path="portfolio/" element={<Main />} />
           <Route path="portfolio/projects" element={<Projects />} />
           <Route path="portfolio/about" element={<About />} />
           <Route path="portfolio/contact" element={<Contact />} />
+          <Route path="/*" element={<Main/>}></Route>
         </Routes>
       <Footer></Footer>
     </Fragment>
