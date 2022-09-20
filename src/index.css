@@ -9,7 +9,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"); */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 /* Container Animation  */
 @keyframes slideInFromTop {
@@ -34,7 +34,6 @@
     opacity: 1;
   }
 }
-
 
 @font-face {
   font-family: "Josefin-L";
@@ -142,7 +141,7 @@ body {
 .projects,
 .contact,
 .about {
-  font-family: "Josefin-R",Arial, Helvetica, sans-serif;
+  font-family: "Josefin-R", Arial, Helvetica, sans-serif;
   /* font-family: 'Roboto', sans-serif; */
   font-size: clamp(0.8rem, 3vw, 1.5rem);
   display: flex;
@@ -157,7 +156,6 @@ body {
   max-width: 1000px;
 }
 
-
 .intro-container .showing {
   animation: 1s ease-out 0s 1 Showing;
 }
@@ -169,7 +167,7 @@ body {
   padding: 2rem 0;
   line-height: 4rem;
   letter-spacing: 1rem;
-  font-family: "Josefin-L",Arial, Helvetica, sans-serif;
+  font-family: "Josefin-L", Arial, Helvetica, sans-serif;
   animation: 1s ease-out 0s 1 slideInFromTop;
 }
 .intro-container h2 {
@@ -185,7 +183,8 @@ body {
   line-height: 2rem;
 }
 
-.intro-container li,a {
+.intro-container li,
+a {
   list-style: none;
   color: #ee6c4d;
   display: inline-block;
@@ -210,21 +209,21 @@ body {
   background-size:cover;
 }  */
 
-.main span.showing{
+.main span.showing {
   animation: 1s ease-out 0s 1 Showing;
 }
-.main h1{
-  font-family: "Josefin-B",Arial, Helvetica, sans-serif;
+.main h1 {
+  font-family: "Josefin-B", Arial, Helvetica, sans-serif;
   animation: 2.5s ease-out 0s 1 Showing;
 }
-.main h2.showing{
+.main h2.showing {
   animation: 3.5s ease-out 0s 1 Showing;
 }
-.main p.showing{
+.main p.showing {
   animation: 3.5s ease-out 0s 1 Showing;
 }
 
-.main ul.showing{
+.main ul.showing {
   animation: 3.5s ease-out 0s 1 Showing;
 }
 
@@ -233,7 +232,6 @@ body {
   background-color: #ee6c4d;
   border-radius: 20px;
 } */
-
 
 /* Projects Page */
 .projects {
@@ -245,7 +243,7 @@ body {
 .about {
   align-items: flex-start;
 }
-.about h2.showing{
+.about h2.showing {
   animation: 2s ease-out 0s 1 Showing;
 }
 
@@ -253,22 +251,21 @@ body {
 .contact {
   align-items: flex-start;
 }
-.contact li{
+.contact li {
   display: block;
   text-align: left;
 }
 
-.contact i{
+.contact i {
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
-
 
 /* Footer */
 
 .footer {
   border-top: 1px solid #555;
-  font-family: "Josefin-L",Arial, Helvetica, sans-serif;
+  font-family: "Josefin-L", Arial, Helvetica, sans-serif;
   height: 5vh;
   text-align: center;
   /* position: fixed; */
@@ -283,16 +280,14 @@ body {
   color: red;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .main,
-.projects,
-.contact,
-.about{
-  max-width: 800px;
+  .projects,
+  .contact,
+  .about {
+    max-width: 800px;
+  }
 }
-  
-}
-
 
 @media screen and (max-width: 768px) {
   .navbar {
@@ -351,15 +346,16 @@ body {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
-/* 
+  
+  /* 
   .projects{
   
   } */
-  .contact li{
-    font-size: clamp(0.8rem,4vw,1.5rem);
+  .contact li {
+    font-size: clamp(0.8rem, 4vw, 1.5rem);
   }
 
-  .contact i{
+  .contact i {
     margin-right: 0.5rem;
   }
 
