@@ -1,4 +1,32 @@
+// import { useHistory } from "react-router-dom";
+
+
 const About = () => {
+
+// let history = useHistory();
+
+// history.push("portfolio/");
+
+
+
+// function HomeButton() {
+//   let history = useHistory();
+
+//   function handleClick() {
+//     history.push("/home");
+//   }
+
+//   return (
+//     <button type="button" onClick={handleClick}>
+//       Go home
+//     </button>
+//   );
+// }
+
+
+
+
+
   return (
     <div className="about">
       <div className="intro-container">

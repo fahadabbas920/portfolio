@@ -9,12 +9,14 @@ import Contact from "./Pages/Contact.jsx";
 import Footer from "../src/components/footer/footer.jsx";
 
 function App() {
+  window.addEventListener('load',()=>{
+      <Main></Main>
+  })
   return (
     <Fragment>
         <Navbar></Navbar>
         <Menubtn></Menubtn>
         <Routes>
-        {window.onload(<Route path="portfolio/" element={<Main />} />)}
           <Route path="portfolio/" element={<Main />} />
           <Route path="portfolio/projects" element={<Projects />} />
           <Route path="portfolio/about" element={<About />} />
