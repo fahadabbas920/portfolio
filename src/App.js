@@ -14,10 +14,10 @@ function App() {
         <Navbar></Navbar>
         <Menubtn></Menubtn>
         <Routes>
-          <Route path="https://fahadabbas920.github.io/portfolio/" element={<Main />} />
-          <Route path="https://fahadabbas920.github.io/portfolio/projects" element={<Projects />} />
-          <Route path="https://fahadabbas920.github.io/portfolio/about" element={<About />} />
-          <Route path="https://fahadabbas920.github.io/portfolio/contact" element={<Contact />} />
+          <Route path="portfolio/" element={<Main />} />
+          <Route path="portfolio/projects" element={<Projects />} />
+          <Route path="portfolio/about" element={<About />} />
+          <Route path="portfolio/contact" element={<Contact />} />
         </Routes>
       <Footer></Footer>
     </Fragment>
