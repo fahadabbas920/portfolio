@@ -4,12 +4,13 @@ const About = () => {
       <div className="intro-container">
         <h1>About Me</h1>
         <p className="showing">
-          I'm a front-end web developer.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur hic voluptates ex. Omnis, nam dignissimos possimus ad hic molestias adipisci quod eveniet vitae pariatur ab, dolorem temporibus, beatae quos praesentium.
+          {/* I'm a front-end web developer.
           My IT experience has given me a strong foundation for web development
           and building complex solutions. Currently in my last year of bachelor
           of computer science. I am passionate about coding and solving problems
           through code, and I am excited to work alongside other amazing
-          programmers and learn so much more.
+          programmers and learn so much more. */}
         </p>
         <h2 className="showing">Skills</h2>
         <ul className="showing">
