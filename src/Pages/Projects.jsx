@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="intro-container">
-        <h1>Projects</h1>
+      <h1>Projects</h1>
         <p className="showing">
           Thank you for checking out the projects section, Stay tuned I'll update project list soon.<br/>
           Below card is of a youtube video

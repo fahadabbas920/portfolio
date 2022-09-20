@@ -165,11 +165,13 @@ body {
   color: white;
   /* color:  #388087; */
   padding: 2rem 0;
+  padding-left: 1rem;
   line-height: 4rem;
   letter-spacing: 1rem;
   font-family: "Josefin-L", Arial, Helvetica, sans-serif;
   animation: 1s ease-out 0s 1 slideInFromTop;
 }
+
 .intro-container h2 {
   margin: 1rem 0;
   border-bottom: 1px solid white;
@@ -346,7 +348,7 @@ a {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
-  
+
   /* 
   .projects{
   
