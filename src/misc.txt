@@ -1,3 +1,0 @@
-  "homepage": "https://fahadabbas920.github.io/fahadabbas920.github.io",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
