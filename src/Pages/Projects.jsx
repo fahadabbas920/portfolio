@@ -6,19 +6,19 @@ const Projects = () => {
       <div className="intro-container">
         <h1>Projects</h1>
         <p className="showing">
-          Thank you for checking out the projects section, stay tuned I'll update project list soon.<br/>
-          Here is an interesting video that might be fun for you.
+          Thank you for checking out the projects section, Stay tuned I'll update project list soon.<br/>
+          Below card is of a youtube video
         </p>
       </div>
       <ProjectCard
         img={
-          "https://i.ytimg.com/vi/S00_zpe6Ft4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6mX_xHnIJjdQfRNs-4bPfSj1Ing"
+          "https://i.ytimg.com/an_webp/bG2BmmYr9NQ/mqdefault_6s.webp?du=3000&sqp=CJCVqJkG&rs=AOn4CLCaSMOZ6u-ysYWw7-jA07caM1vTkQ"
         }
-        title={"ASKING COLLEGE GIRLS QUESTIONS YOU’RE TOO AFRAID TO ASK"}
-        description={"These are the most popular (and fiercest) head-to-head animal battles, featuring lions vs. hippos, mongoose vs. cobra, and many more."}
-        web={"https://youtu.be/WrCrJY-2gOc"}
+        title={"The Easiest Javascript Game Ever"}
+        description={"In this video I show you how I created the most basic, simple javascript game that you can make yourself. It's similar to the google dinosaur game that you play when there's no internet."}
+        web={"https://youtu.be/bG2BmmYr9NQ"}
       ></ProjectCard>
-      <ProjectCard
+      {/* <ProjectCard
         img={
           "https://i.ytimg.com/vi/tMhTUTss7v8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD99cc_Kvr9xEcqrIheyaRyPTdaQ"
         }
@@ -39,7 +39,7 @@ const Projects = () => {
           <li>3</li>
         </ul>}
         web={"https://www.google.com"}
-      ></ProjectCard>
+      ></ProjectCard> */}
       
     </div>
   );

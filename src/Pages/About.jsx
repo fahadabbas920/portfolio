@@ -1,38 +1,13 @@
-// import { useHistory } from "react-router-dom";
-
-
 const About = () => {
-
-// let history = useHistory();
-
-// history.push("portfolio/");
-
-
-
-// function HomeButton() {
-//   let history = useHistory();
-
-//   function handleClick() {
-//     history.push("/home");
-//   }
-
-//   return (
-//     <button type="button" onClick={handleClick}>
-//       Go home
-//     </button>
-//   );
-// }
-
-
-
-
-
   return (
     <div className="about">
       <div className="intro-container">
         <h1>About Me</h1>
         <p className="showing">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur hic voluptates ex. Omnis, nam dignissimos possimus ad hic molestias adipisci quod eveniet vitae pariatur ab, dolorem temporibus, beatae quos praesentium
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur hic
+          voluptates ex. Omnis, nam dignissimos possimus ad hic molestias
+          adipisci quod eveniet vitae pariatur ab, dolorem temporibus, beatae
+          quos praesentium
         </p>
         <h2 className="showing">Skills</h2>
         <ul className="showing">
