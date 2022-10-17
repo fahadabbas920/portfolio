@@ -11,18 +11,16 @@
 .container:hover {
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-/*   
+  
   .card_img{
-    width: 100%;
-  } */
+    width: 1280px;
+    height: 720px;
+  }
 
 .card_img img {
+  height: 100%;
   width: 100%;
 }
-/*   
-  .card_img:hover{
-    
-  } */
 
 .card_detail {
   color: white;
@@ -45,14 +43,11 @@
   background-color: #555;
   padding: 0.2rem 0;
   display: block;
-  /* margin: 0 25%; */
-  /* background-color: aqua; */
-  /* display: block; */
-  /* text-align: center; */
+  margin: 10px 0;
+  font-weight: 700;
 }
 
 .card_link:hover {
-  /* border-radius: 5px; */
   color: white;
   background-color: #ee6c4d;
 }

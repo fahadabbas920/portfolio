@@ -1,4 +1,6 @@
+import React from "react";
 import ProjectCard from "../components/project card/projectCard";
+import tenzigame from "../assets/projectTenzieGame.jpg"
 
 const Projects = () => {
   return (
@@ -6,41 +8,27 @@ const Projects = () => {
       <div className="intro-container">
       <h1>Projects</h1>
         <p className="showing">
-          Thank you for checking out the projects section, Stay tuned I'll update project list soon.<br/>
-          Below card is of a youtube video
+          Actively updating my project list. Stay Tuned.
         </p>
       </div>
-      <ProjectCard
+      {/* <ProjectCard
         img={
-          "https://i.ytimg.com/an_webp/bG2BmmYr9NQ/mqdefault_6s.webp?du=3000&sqp=CJCVqJkG&rs=AOn4CLCaSMOZ6u-ysYWw7-jA07caM1vTkQ"
+          "https://i.ytimg.com/vi/VRH3HA7N_8U/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBc4osM51egvWIDSpWTy2Vzb4r_0A"
         }
         title={"The Easiest Javascript Game Ever"}
         description={"In this video I show you how I created the most basic, simple javascript game that you can make yourself. It's similar to the google dinosaur game that you play when there's no internet."}
-        web={"https://youtu.be/bG2BmmYr9NQ"}
-      ></ProjectCard>
-      {/* <ProjectCard
-        img={
-          "https://i.ytimg.com/vi/tMhTUTss7v8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD99cc_Kvr9xEcqrIheyaRyPTdaQ"
-        }
-        title={"Random Yt video"}
-        description=
-        {"This is a random yt video thumbnail"}
-        web={"https://www.google.com"}
-      ></ProjectCard>
-      <ProjectCard
-        img={
-          "https://i.ytimg.com/vi/tMhTUTss7v8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD99cc_Kvr9xEcqrIheyaRyPTdaQ"
-        }
-        title={"Random Yt video"}
-        description=
-        {<ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-        </ul>}
-        web={"https://www.google.com"}
+        web={`https://youtu.be/bG2BmmYr9NQ`}
       ></ProjectCard> */}
-      
+      <ProjectCard
+        img={tenzigame}
+        title={"Tenzie Game"}
+        description={
+          <p>Everyone gets ten dice. Someone says, “Go.” Then everyone rolls and rolls as fast as they can until someone gets all their dice on the same number and shouts “TENZI.” Lots of different ways to play. A fun fast frenzy for the whole family!, <br/>
+          More features on the way</p>
+      }
+        web={"https://mytenziegame.netlify.app"}
+        web2={""}
+      />
     </div>
   );
 };
