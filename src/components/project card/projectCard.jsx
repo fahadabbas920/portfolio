@@ -14,9 +14,9 @@ const ProjectCard = (props) => {
         <a href={props.web} className={classes.card_link} target="_blank" rel="noreferrer">
           Visit
         </a>
-        <a href={props.web2} className={classes.card_link} target="_blank" rel="noreferrer">
+        {/* <a href={props.web2} className={classes.card_link} target="_blank" rel="noreferrer">
           Code
-        </a>
+        </a> */}
       </section>
     </article>
   );

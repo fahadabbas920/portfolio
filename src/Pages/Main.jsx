@@ -12,12 +12,20 @@ const Main = () => {
         <ul className="showing">
           {/* <li><a href="https://www.youtube.com">Resume</a></li> */}
           <li>
-            <a href="https://github.com/fahadabbas920">
+            <a
+              href="https://github.com/fahadabbas920"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-brands fa-github">.</i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/fahadabbas920/">
+            <a
+              href="https://www.linkedin.com/in/fahadabbas920/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-brands fa-linkedin">.</i>
             </a>
           </li>
