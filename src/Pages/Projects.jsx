@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/project card/projectCard";
-import tenzigame from "../assets/projectTenzieGame.jpg"
+import tenzigame from "../assets/projectTenzieGame1.jpg"
 
 const Projects = () => {
   return (
