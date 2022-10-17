@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.06dd6032.css",
-    "main.js": "/portfolio/static/js/main.8ab4a3fe.js",
-    "static/media/projectTenzieGame.jpg": "/portfolio/static/media/projectTenzieGame.bb9ca25c94aeb7c1dfdb.jpg",
+    "main.js": "/portfolio/static/js/main.eaa79591.js",
     "static/media/JosefinSans-Light.ttf": "/portfolio/static/media/JosefinSans-Light.82f56d62b11fe2823b47.ttf",
     "static/media/JosefinSans-Regular.ttf": "/portfolio/static/media/JosefinSans-Regular.ccbb4935ba0663d5ae6b.ttf",
     "static/media/JosefinSans-Bold.ttf": "/portfolio/static/media/JosefinSans-Bold.57aa1a839cbc3bfd7959.ttf",
+    "static/media/projectTenzieGame1.jpg": "/portfolio/static/media/projectTenzieGame1.0fb5cd951560545ff5c7.jpg",
     "index.html": "/portfolio/index.html",
     "main.06dd6032.css.map": "/portfolio/static/css/main.06dd6032.css.map",
-    "main.8ab4a3fe.js.map": "/portfolio/static/js/main.8ab4a3fe.js.map"
+    "main.eaa79591.js.map": "/portfolio/static/js/main.eaa79591.js.map"
   },
   "entrypoints": [
     "static/css/main.06dd6032.css",
-    "static/js/main.8ab4a3fe.js"
+    "static/js/main.eaa79591.js"
   ]
 }
