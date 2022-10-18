@@ -1,6 +1,8 @@
+import menuClose from "../components/menuAutoClose";
+
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main"  onClick={()=>menuClose()}>
       <div className="intro-container">
         <span className="showing">Hi, I'm</span>
         <h1>FAHAD ABBAS</h1>

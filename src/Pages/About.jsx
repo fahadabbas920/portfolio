@@ -1,25 +1,27 @@
+import menuClose from "../components/menuAutoClose";
+
 const About = () => {
   return (
-    <div className="about">
+    <div className="about"  onClick={()=>menuClose()}>
       <div className="intro-container">
         <span className="title">
           <h1>About Me</h1>
-        </span>
-        <section className="about-description">
-          <p className="showing">
+        </span> 
+        <section className="about-description showing" >
+          <p >
             I'm a Front-End Developer. I have serious passion for web
             applications, animations and creating intuitive dynamic user
             experiences. The passion and enthusiasm for computer world
             encouraged me to persue my bachelor degree and career in Computer
             Science field.
           </p>
-          <p className="showing">
+          <p >
             I don’t like to define myself by the work I’ve done. I define myself
             by the work I want to do. Skills can be taught, personality is
             inherent. I prefer to keep learning, continue challenging myself,
             and do interesting things that matter.
           </p>
-          <p className="showing">
+          <p >
             Fueled by high energy levels and boundless enthusiasm, I’m easily
             inspired and more then willing to follow my fascinations wherever
             they take me. I’m passionate, expressive, multi-talented spirit with
@@ -27,15 +29,15 @@ const About = () => {
             just come up with ideas. Instead I have an almost impulsive need to
             act on them.
           </p>
-          <p className="showing">
+          <p>
             My abundant energy fuels me in the pursuit of many interests,
             hobbies, areas of study and artistic endeavors. I’m a fast learner,
             able to pick up new skills and juggle different projects and roles
             with relative ease.
           </p>
-          <p className="showing">
+          <p>
             I like to develop expertise in a number of areas over the course of
-            my life and career. I'm currently a last year bachlor of computer
+            my life and career. I'm currently a last year bachelor of computer
             science student and open for new opportunities.
           </p>
         </section>

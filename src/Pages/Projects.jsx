@@ -2,10 +2,13 @@ import React from "react";
 import ProjectCard from "../components/project card/projectCard";
 import tenziGame from "../assets/projectTenzieGame.jpg";
 import notezApp from "../assets/projectNotezApp.jpg";
+import menuClose from "../components/menuAutoClose";
 
 const Projects = () => {
+
+
   return (
-    <div className="projects">
+    <div className="projects" onClick={()=>menuClose()}>
       <div className="intro-container">
         <h1>Projects</h1>
         <p className="showing">
