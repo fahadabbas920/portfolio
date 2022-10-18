@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.06dd6032.css",
-    "main.js": "/portfolio/static/js/main.ae3c43b3.js",
+    "main.js": "/portfolio/static/js/main.3d73fbb8.js",
     "static/media/JosefinSans-Light.ttf": "/portfolio/static/media/JosefinSans-Light.82f56d62b11fe2823b47.ttf",
     "static/media/JosefinSans-Regular.ttf": "/portfolio/static/media/JosefinSans-Regular.ccbb4935ba0663d5ae6b.ttf",
     "static/media/JosefinSans-Bold.ttf": "/portfolio/static/media/JosefinSans-Bold.57aa1a839cbc3bfd7959.ttf",
-    "static/media/projectTenzieGame1.jpg": "/portfolio/static/media/projectTenzieGame1.0fb5cd951560545ff5c7.jpg",
+    "static/media/projectTenzieGame.jpg": "/portfolio/static/media/projectTenzieGame.0fb5cd951560545ff5c7.jpg",
+    "static/media/projectNotezApp.jpg": "/portfolio/static/media/projectNotezApp.d244c84ef9d0eb234ec8.jpg",
     "index.html": "/portfolio/index.html",
     "main.06dd6032.css.map": "/portfolio/static/css/main.06dd6032.css.map",
-    "main.ae3c43b3.js.map": "/portfolio/static/js/main.ae3c43b3.js.map"
+    "main.3d73fbb8.js.map": "/portfolio/static/js/main.3d73fbb8.js.map"
   },
   "entrypoints": [
     "static/css/main.06dd6032.css",
-    "static/js/main.ae3c43b3.js"
+    "static/js/main.3d73fbb8.js"
   ]
 }
