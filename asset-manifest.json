@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d4b617bf.css",
-    "main.js": "/portfolio/static/js/main.b5944189.js",
+    "main.css": "/portfolio/static/css/main.0eb5ede2.css",
+    "main.js": "/portfolio/static/js/main.3094be09.js",
+    "static/media/aliBuilders.jpg": "/portfolio/static/media/aliBuilders.3119914b5a5ce399a67f.jpg",
     "static/media/JosefinSans-Light.ttf": "/portfolio/static/media/JosefinSans-Light.82f56d62b11fe2823b47.ttf",
     "static/media/JosefinSans-Regular.ttf": "/portfolio/static/media/JosefinSans-Regular.ccbb4935ba0663d5ae6b.ttf",
     "static/media/JosefinSans-Bold.ttf": "/portfolio/static/media/JosefinSans-Bold.57aa1a839cbc3bfd7959.ttf",
     "static/media/projectTenzieGame.jpg": "/portfolio/static/media/projectTenzieGame.0fb5cd951560545ff5c7.jpg",
     "static/media/projectNotezApp.jpg": "/portfolio/static/media/projectNotezApp.d244c84ef9d0eb234ec8.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d4b617bf.css.map": "/portfolio/static/css/main.d4b617bf.css.map",
-    "main.b5944189.js.map": "/portfolio/static/js/main.b5944189.js.map"
+    "main.0eb5ede2.css.map": "/portfolio/static/css/main.0eb5ede2.css.map",
+    "main.3094be09.js.map": "/portfolio/static/js/main.3094be09.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4b617bf.css",
-    "static/js/main.b5944189.js"
+    "static/css/main.0eb5ede2.css",
+    "static/js/main.3094be09.js"
   ]
 }
