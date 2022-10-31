@@ -40,6 +40,8 @@
 }
 
 .card_link {
+  letter-spacing: 0.05rem;
+  color: white;
   background-color: #555;
   padding: 0.2rem 0;
   display: block;
@@ -53,6 +55,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .card_link{
+    font-size: 1.2rem;
+  }
   .container {
     width: 300px;
   }

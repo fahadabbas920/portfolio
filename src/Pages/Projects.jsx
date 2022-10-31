@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "../components/project card/projectCard";
 import tenziGame from "../assets/projectTenzieGame.jpg";
 import notezApp from "../assets/projectNotezApp.jpg";
+import aliBuild from "../assets/aliBuilders.jpg";
 import menuClose from "../components/menuAutoClose";
 
 const Projects = () => {
@@ -12,9 +13,20 @@ const Projects = () => {
       <div className="intro-container">
         <h1>Projects</h1>
         <p className="showing">
-          Actively updating my project list and adding more features. Stay Tuned. <i className="fa-solid fa-bullhorn"></i>
+          Actively updating my project list. Stay Tuned. <i className="fa-solid fa-bullhorn"></i>
         </p>
       </div>
+      <ProjectCard
+        img={aliBuild}
+        title={"Ali Builders & Construction Co."}
+        description={
+          <p>
+            Web Portfolio for Ali Builders & Contruction Company.
+          </p>
+        }
+        web={"https://alibuilders.netlify.app/"}
+        // web2={""}
+      />
       <ProjectCard
         img={notezApp}
         title={"Notez : Notepad"}
@@ -36,8 +48,9 @@ const Projects = () => {
           </p>
         }
         web={"https://mytenziegame.netlify.app"}
-        web2={""}
+        // web2={""}
       />
+
     </div>
   );
 };
