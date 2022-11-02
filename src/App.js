@@ -7,7 +7,7 @@ import Menubtn from "./components/menu/menu.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Footer from "../src/components/footer/footer.jsx";
-import ReactGA from "react-ga"
+// import ReactGA from "react-ga"
 // import { useEffect } from "react";
 
 // const trackingID = "G-L3390DNQEP";
