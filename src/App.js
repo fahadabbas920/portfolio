@@ -8,15 +8,16 @@ import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Footer from "../src/components/footer/footer.jsx";
 import ReactGA from "react-ga"
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
-const trackingID = "G-L3390DNQEP";
-ReactGA.initialize(trackingID);
+// const trackingID = "G-L3390DNQEP";
+// ReactGA.initialize(trackingID);
+// console.log(ReactGA)
 
 function App() {
-    useEffect(()=>{
-    ReactGA.pageview(window.location.pathname)
-  },[])
+  //   useEffect(()=>{
+  //   ReactGA.pageview(window.location.pathname)
+  // },[])
   window.addEventListener('load',()=>{
       <Main></Main>
   })
