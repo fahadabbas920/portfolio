@@ -1,6 +1,12 @@
 import menuClose from "../components/menuAutoClose";
+// import { useEffect } from "react";
+// import ReactGA from "react-ga"
 
 const Main = () => {
+  // useEffect(()=>{
+  //   ReactGA.pageview(window.location.pathname)
+  // },[])
+
   return (
     <div className="main"  onClick={()=>menuClose()}>
       <div className="intro-container">

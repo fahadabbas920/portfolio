@@ -7,6 +7,11 @@ import Menubtn from "./components/menu/menu.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Footer from "../src/components/footer/footer.jsx";
+// import ReactGA from "react-ga"
+
+
+// const trackingID = "G-L3390DNQEP";
+// ReactGA.initialize(trackingID);
 
 function App() {
   window.addEventListener('load',()=>{
