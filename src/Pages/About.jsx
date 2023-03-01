@@ -1,16 +1,17 @@
 import menuClose from "../components/menuAutoClose";
-
+// import contactImg from "../assets/story.jpg";
 const About = () => {
   return (
-    <div className="about"  onClick={()=>menuClose()}>
+    <div className="about" id="about" onClick={()=>menuClose()}>
       <div className="intro-container">
         <span className="title">
-          <h1>About Me</h1>
+          <h1>My Story</h1>
+          {/* <img src={contactImg} alt="" id="contactImg"></img> */}
         </span> 
         <section className="about-description showing" >
           <p >
             I'm a Front-End Developer. I have serious passion for web
-            applications, animations and creating intuitive dynamic user
+            applications and creating intuitive dynamic user
             experiences. The passion and enthusiasm for computer world
             encouraged me to persue my bachelor degree and career in Computer
             Science field.
@@ -35,11 +36,11 @@ const About = () => {
             able to pick up new skills and juggle different projects and roles
             with relative ease.
           </p>
-          <p>
+          {/* <p>
             I like to develop expertise in a number of areas over the course of
             my life and career. I'm currently a last year bachelor of computer
             science student and open for new opportunities.
-          </p>
+          </p> */}
         </section>
         <h2 className="showing">Skills</h2>
         <ul className="showing">

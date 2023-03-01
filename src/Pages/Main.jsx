@@ -1,6 +1,7 @@
 import menuClose from "../components/menuAutoClose";
 // import { useEffect } from "react";
 // import ReactGA from "react-ga"
+import mainImg from "../assets/19362653.jpg"
 
 const Main = () => {
   // useEffect(()=>{
@@ -8,10 +9,11 @@ const Main = () => {
   // },[])
 
   return (
-    <div className="main"  onClick={()=>menuClose()}>
+    <div className="main" id="main" onClick={()=>menuClose()}>
       <div className="intro-container">
-        <span className="showing">Hi, I'm</span>
+        <h2 className="showing">Hello, I'm</h2>
         <h1>FAHAD ABBAS</h1>
+        <img src={mainImg} alt="main-img" id="main-img" className="showing"/>
         {/* <h2 className="showing">Welcome</h2> */}
         <p className="showing">
           A Front-End Web Developer passionate about creating <br /> interactive
@@ -38,7 +40,9 @@ const Main = () => {
             </a>
           </li>
         </ul>
+        <i className="fa-solid fa-arrow-down arrowClass"></i>
       </div>
+      
     </div>
   );
 };
